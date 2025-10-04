@@ -1,0 +1,123 @@
+body {
+    font-family: 'Comfortaa';
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav,
+a {
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 110%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15%;
+    transition: all 0.2s ease;
+}
+
+nav,
+a:hover {
+    font-size: 125%;
+}
+
+
+header {
+    background: linear-gradient(#51CBFF, #C4EFFF);
+    padding: 5%;
+}
+
+footer,
+p {
+    text-align: center;
+    color: white;
+    padding-left: 30%;
+    padding-top: 2%;
+}
+
+footer,
+img {
+    display: flex;
+    position: relative;
+}
+
+footer {
+    background: linear-gradient(#51CBFF, #C4EFFF);
+    padding: 5%;
+}
+
+.planes {
+    position: relative;
+    padding-top: 2%;
+}
+
+main {
+    background-color: #4BC9FF;
+    padding: 2%;
+}
+
+section {
+    flex-wrap: wrap;
+}
+
+.post-text {
+    font-size: 150%;
+    color: black;
+    text-align: left;
+}
+
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+    border-radius: 2%;
+}
+
+.post-button{
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+    border-radius: 20px;
+}
+
+.post-button:hover{
+    font-size: 165%;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+span{
+    color: #4BC9FF;
+}
+
+.button{
+    font-size: 135%;
+}
+
+.button:hover{
+    font-size: 150%;
+}
